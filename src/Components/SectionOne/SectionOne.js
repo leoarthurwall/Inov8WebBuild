@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
+//SECTION - HEADER
 
-const HeaderContainer = styled.section`
+const SectionOneContainer = styled.section`
   width: 100%;
   height: 100vh;
   background-position: 50%;
@@ -13,8 +14,8 @@ const HeaderContainer = styled.section`
   align-items: center;
 `;
 
-const Header = () => {
-  return <HeaderContainer></HeaderContainer>;
+const SectionOne = () => {
+  return <SectionOneContainer></SectionOneContainer>;
 };
 
-export default Header;
+export default SectionOne;

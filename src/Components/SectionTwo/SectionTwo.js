@@ -1,7 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
+//SECTION - PARKCLAW
 
-const ParkClawContainer = styled.section`
+const SectionTwoContainer = styled.section`
   width: 100%;
   height: 100vh;
   background-position: 50%;
@@ -13,13 +14,13 @@ const ParkClawContainer = styled.section`
   align-items: center;
 `
 
-const ParkClaw = () => {
+const SectionTwo = () => {
   return (
-    <ParkClawContainer>
+    <SectionTwoContainer>
 
-    </ParkClawContainer>
+    </SectionTwoContainer>
 
   )
 }
 
-export default ParkClaw
+export default SectionTwo

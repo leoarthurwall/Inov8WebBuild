@@ -1,6 +1,7 @@
 import styled from "styled-components";
-import SectionOne from "./Components/Header/Header";
-import ParkClaw from "./Components/ParkClaw/ParkClaw";
+import SectionOne from "./Components/SectionOne/SectionOne";
+import SectionThree from "./Components/SectionThree/SectionThree";
+import ParkClaw from "./Components/SectionTwo/SectionTwo";
 
 const AppComponent = styled.main`
 width: 100vw;
@@ -13,6 +14,7 @@ function App() {
    <AppComponent>
       <SectionOne />
       <ParkClaw />
+      <SectionThree />
    </AppComponent>
 
   );
