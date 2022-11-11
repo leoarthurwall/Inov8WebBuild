@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const SectionThreeContainer = styled.section`
-    height: 100wh;
+    height: 100vh;
     width: 100%;
     background: #fff;
 `

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import SectionFour from "./Components/SectionFour/SectionFour";
 import SectionOne from "./Components/SectionOne/SectionOne";
 import SectionThree from "./Components/SectionThree/SectionThree";
 import ParkClaw from "./Components/SectionTwo/SectionTwo";
@@ -15,6 +16,7 @@ function App() {
       <SectionOne />
       <ParkClaw />
       <SectionThree />
+      <SectionFour />
    </AppComponent>
 
   );
