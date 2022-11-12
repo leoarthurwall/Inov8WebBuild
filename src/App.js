@@ -3,7 +3,7 @@ import SectionFive from "./Components/SectionFive/SectionFive";
 import SectionFour from "./Components/SectionFour/SectionFour";
 import SectionOne from "./Components/SectionOne/SectionOne";
 import SectionThree from "./Components/SectionThree/SectionThree";
-import ParkClaw from "./Components/SectionTwo/SectionTwo";
+import SectionTwo from "./Components/SectionTwo/SectionTwo";
 
 const AppComponent = styled.main`
 width: 100vw;
@@ -15,7 +15,7 @@ function App() {
   return (
    <AppComponent>
       <SectionOne />
-      <ParkClaw />
+      <SectionTwo />
       <SectionThree />
       <SectionFour />
       <SectionFive />
