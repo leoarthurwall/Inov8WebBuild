@@ -7,9 +7,12 @@ const SectionSevenContainer = styled.section`
     background: #fff;
 `
 
+
+
 const SectionSeven = () => {
   return (
-    <SectionSevenContainer>SectionSeven</SectionSevenContainer>
+    <SectionSevenContainer>
+    </SectionSevenContainer>
   )
 }
 
