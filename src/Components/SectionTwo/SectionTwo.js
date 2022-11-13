@@ -25,8 +25,8 @@ const SectionTwo = () => {
   return (
     <SectionTwoContainer>
       <ButtonContainer>
-        <Button buttonName={"SHOP MEN"} />
-        <Button buttonName={"SHOP WOMEN"} />
+        <Button buttonText={"SHOP MEN"} />
+        <Button buttonText={"SHOP WOMEN"} />
       </ButtonContainer>
     </SectionTwoContainer>
   );
