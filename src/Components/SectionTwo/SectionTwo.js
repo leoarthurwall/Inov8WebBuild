@@ -1,6 +1,6 @@
-import React from 'react'
-import styled from 'styled-components'
-import Button from './Button/Button'
+import React from "react";
+import styled from "styled-components";
+import Button from "./Button/Button";
 //SECTION - PARKCLAW
 
 const SectionTwoContainer = styled.section`
@@ -13,18 +13,23 @@ const SectionTwoContainer = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
-`
+`;
 
+const ButtonContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+`;
 const SectionTwo = () => {
   return (
     <SectionTwoContainer>
-    <Button ButtonName={"SHOP MEN"}/>
-    <Button ButtonName={"SHOP WOMEN"}/>
-
-
+      <ButtonContainer>
+        <Button buttonName={"SHOP MEN"} />
+        <Button buttonName={"SHOP WOMEN"} />
+      </ButtonContainer>
     </SectionTwoContainer>
+  );
+};
 
-  )
-}
-
-export default SectionTwo
+export default SectionTwo;
