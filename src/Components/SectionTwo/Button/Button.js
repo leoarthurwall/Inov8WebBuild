@@ -9,9 +9,9 @@ const ButtonContainer = styled.button`
 
 `
 
-const Button = () => {
+const Button = ({ButtonText}) => {
   return (
-    <ButtonContainer>Button</ButtonContainer>
+    <ButtonContainer>{ButtonText}</ButtonContainer>
   )
 }
 

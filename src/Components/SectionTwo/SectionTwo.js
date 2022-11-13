@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import Button from './Button/Button'
 //SECTION - PARKCLAW
 
 const SectionTwoContainer = styled.section`
@@ -17,6 +18,9 @@ const SectionTwoContainer = styled.section`
 const SectionTwo = () => {
   return (
     <SectionTwoContainer>
+    <Button ButtonName={"SHOP MEN"}/>
+    <Button ButtonName={"SHOP WOMEN"}/>
+
 
     </SectionTwoContainer>
 
