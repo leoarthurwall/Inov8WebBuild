@@ -3,14 +3,14 @@ import styled from "styled-components";
 const ButtonContainer = styled.button`
  width: 300px;
  height: 90px;
- background: #fff;
+ background-color:${props => props.bgColor};
  outline: none;
  border: none;
- color: black;
-`;
+ color: ${props => props.color};
+`
 
-const Button = ({ buttonText }) => {
-  return <ButtonContainer>{buttonText}</ButtonContainer>;
+const Button = ({ buttonText, bgColor, color }) => {
+  return <ButtonContainer color={color} bgColor={bgColor}>{buttonText}</ButtonContainer>;
 };
 
 export default Button;
