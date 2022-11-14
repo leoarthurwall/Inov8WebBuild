@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import SectionOneNotification from "./SectionOneNotification/SectionOneNotification";
 //SECTION - HEADER
 
 const SectionOneContainer = styled.section`
@@ -15,7 +16,9 @@ const SectionOneContainer = styled.section`
 `;
 
 const SectionOne = () => {
-  return <SectionOneContainer></SectionOneContainer>;
+  return <SectionOneContainer>
+    <SectionOneNotification />
+  </SectionOneContainer>;
 };
 
 export default SectionOne;
