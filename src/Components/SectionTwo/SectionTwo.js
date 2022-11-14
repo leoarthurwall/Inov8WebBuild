@@ -31,7 +31,6 @@ const Image = styled.div`
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
 `;
 const SectionTwo = () => {
   return (

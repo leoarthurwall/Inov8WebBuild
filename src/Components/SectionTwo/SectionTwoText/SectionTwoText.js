@@ -21,7 +21,7 @@ const HeaderSpan = styled.span`
 const SubHeader = styled.h3`
   margin: 0;
   font-size: 40px;
-  font-weight: 100;
+  font-weight: 300;
   color: #fff;
 `;
 const Paragraph = styled.p`
