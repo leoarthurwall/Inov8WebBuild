@@ -7,6 +7,7 @@ const ButtonContainer = styled.button`
  outline: none;
  border: none;
  color: ${props => props.color};
+ font-weight: bold;
 `
 
 const Button = ({ buttonText, bgColor, color }) => {

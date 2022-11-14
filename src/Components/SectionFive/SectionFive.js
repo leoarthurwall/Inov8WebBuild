@@ -17,8 +17,8 @@ const SectionFive = () => {
   return (
     <SectionFiveContainer>
       <ButtonContainer>
-        <Button buttonText={"SHOP MEN"} />
-        <Button buttonText={"SHOP WOMEN"} />
+        <Button buttonText={"SHOP MEN"} bgColor="#00FF00" color="#161615" />
+        <Button buttonText={"SHOP WOMEN"} bgColor="#00FF00" color="#161615" />
       </ButtonContainer>
     </SectionFiveContainer>
   );
