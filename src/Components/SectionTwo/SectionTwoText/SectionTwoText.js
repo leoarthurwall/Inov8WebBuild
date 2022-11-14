@@ -13,13 +13,13 @@ const Header = styled.h2`
   font-weight: bold;
   font-family: sans-serif;
   color: #fff;
-  margin: none;
+  margin: 0;
 `;
 const HeaderSpan = styled.span`
   font-weight: 200;
 `;
 const SubHeader = styled.h3`
-  margin: none;
+  margin: 0;
   font-size: 40px;
   font-weight: 100;
   color: #fff;

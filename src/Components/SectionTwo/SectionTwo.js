@@ -7,17 +7,13 @@ import SectionTwoText from "./SectionTwoText/SectionTwoText";
 const SectionTwoContainer = styled.section`
   width: 100%;
   height: 100vh;
-  background-position: 50%;
-  background-size: cover;
-  position: relative;
-  background-image: url(/assets/desktop/parkclaw-large.jpg);
-  background-color: #DDAD42;
+
+  background-color: #ddad42;
 
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; 
-
+  flex-direction: column;
 `;
 
 const ButtonContainer = styled.div`
@@ -25,14 +21,26 @@ const ButtonContainer = styled.div`
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  margin-top: 115px;
+`;
+const Image = styled.div`
+  width: 860px;
+  height: 379px;
+
+  background-image: url(/assets/desktop/parkclaw-large.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
 `;
 const SectionTwo = () => {
   return (
     <SectionTwoContainer>
-    <SectionTwoText />
+      <SectionTwoText />
+      <Image />
       <ButtonContainer>
-        <Button buttonText={"SHOP MEN"} bgColor="#fff" color="#000"/>
-        <Button buttonText={"SHOP WOMEN"} bgColor="#fff" color="#000"/>
+        <Button buttonText={"SHOP MEN"} bgColor="#fff" color="#000" />
+        <Button buttonText={"SHOP WOMEN"} bgColor="#fff" color="#000" />
       </ButtonContainer>
     </SectionTwoContainer>
   );
