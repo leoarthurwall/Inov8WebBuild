@@ -12,12 +12,31 @@ const NotificationContainer = styled.div`
   position: absolute;
   top: 70px;
   left: 70px;
+  padding: 37px;
+`;
+const TextContainer = styled.div`
+display:flex;
+flex-direction: column;
+gap: 12px;
+`
+const NotificationText = styled.h3`
+  color: #fff;
+  font-weight: 600;
+  font-family: sans-serif;
+  font-size: 54px;
+  margin: 0;
+  height: auto;
 `;
 
 const SectionOneNotification = () => {
-  return <NotificationContainer>
-   
-  </NotificationContainer>;
+  return (
+    <NotificationContainer>
+      <TextContainer>
+        <NotificationText>6AM</NotificationText>
+        <NotificationText>TEAMS MEETING</NotificationText>
+      </TextContainer>
+    </NotificationContainer>
+  );
 };
 
 export default SectionOneNotification;
