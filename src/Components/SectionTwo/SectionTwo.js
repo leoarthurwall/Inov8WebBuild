@@ -11,7 +11,8 @@ const SectionTwoContainer = styled.section`
   background-size: cover;
   position: relative;
   background-image: url(/assets/desktop/parkclaw-large.jpg);
-  
+  background-color: #DDAD42;
+
   display: flex;
   justify-content: center;
   align-items: center;
