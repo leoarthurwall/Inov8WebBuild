@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Button from "./Button/Button";
+import Button from "../Global/Button/Button";
 //SECTION - PARKCLAW
 
 const SectionTwoContainer = styled.section`
