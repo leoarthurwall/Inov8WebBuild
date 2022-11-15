@@ -15,20 +15,15 @@ const ImageWrapper = styled.div`
   height: 200px;
   margin-left: auto;
   margin-right: auto;
-
-  z-index: 100;
-  background-color: grey;
-
   display: grid;
   grid-template-columns: auto auto auto auto;
-  grid-gap: 20px;
+  grid-gap: 47px;
 `;
 const Image = styled.div`
   height: auto;
   width: auto;
-  background-color: blue;
-
-  ${"" /* background-image: url(${(props) => props.bgImage}); */}
+  background-size: cover;
+  background-image: url(${(props) => props.bgImage});
 `;
 const ButtonContainer = styled.div`
   display: flex;
@@ -41,10 +36,10 @@ const SectionFive = () => {
   return (
     <SectionFiveContainer>
       <ImageWrapper>
-        <Image />
-        <Image />
-        <Image />
-        <Image />
+        <Image bgImage={"/assets/desktop/parkclaw-black.jpg"} />
+        <Image bgImage={"/assets/desktop/parkclaw-blue.jpg"} />
+        <Image bgImage={"/assets/desktop/parkclaw-navy.jpg"} />
+        <Image bgImage={"/assets/desktop/parkclaw-red.jpg"} />
       </ImageWrapper>
       <ButtonContainer>
         <Button buttonText={"SHOP MEN"} bgColor="#00FF00" color="#161615" />
