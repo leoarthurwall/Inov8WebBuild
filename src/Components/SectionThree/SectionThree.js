@@ -8,6 +8,7 @@ const SectionThreeContainer = styled.section`
 `;
 const ImageWrapper = styled.div`
   max-width: 1200px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
 
@@ -15,14 +16,15 @@ const ImageWrapper = styled.div`
   justify-content: center;
   flex: wrap;
   align-items: center;
+  background-color: grey;
 `;
 const Image = styled.div`
   height: 50%;
   width: 50%;
-`
+`;
 
 const SectionThree = () => {
-  const ImagePath = [
+  const ImagePaths = [
     {
       name: "grid-1",
       bgImage: "/assets/desktop/grid-1.jpg",
@@ -38,12 +40,21 @@ const SectionThree = () => {
     {
       name: "grid-4",
       bgImage: "/assets/desktop/grid-4.jpg",
-    }
-  ]
+    },
+  ];
 
   return (
     <SectionThreeContainer>
-      <ImageWrapper></ImageWrapper>
+      <ImageWrapper>
+        {ImagePaths.map((imagePath, i) => {
+          return (
+            <Image
+              key={i}
+              style={{ backgroundImage: `url(${imagePath.bgImage})` }}
+            />
+          );
+        })}
+      </ImageWrapper>
     </SectionThreeContainer>
   );
 };
