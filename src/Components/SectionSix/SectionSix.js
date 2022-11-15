@@ -8,16 +8,21 @@ const SectionSixContainer = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #ffffff;
+
 `;
-const VideoBox = styled.div`
+const VideoContainer = styled.div`
   height: 100%;
-  width: 90%;
-  background: #ebebeb;
+  width: 100%;
+  background-color: #ebebeb;
 
   display: flex;
   justify-content: center;
   align-items: center;
+
+  margin: 50px;
 `;
+
 
 const VideoText = styled.h1`
     color: #707070;
@@ -30,9 +35,9 @@ const VideoText = styled.h1`
 const SectionSix = () => {
   return (
     <SectionSixContainer>
-      <VideoBox>
+      <VideoContainer>
         <VideoText>VIDEO</VideoText>
-      </VideoBox>
+      </VideoContainer>
     </SectionSixContainer>
   );
 };
