@@ -12,8 +12,10 @@ const Header = styled.h2`
   font-weight: bold;
   font-family: sans-serif;
   text-align: left;
-  padding: 50px;
+  padding: 100px 50px 0 50px;
   box-sizing: border-box;
+  margin: 0;
+
 `;
 
 const GridContainer = styled.div`
