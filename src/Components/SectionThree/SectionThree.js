@@ -30,43 +30,17 @@ const Image = styled.div`
   height: auto;
   width: auto;
   background-color: blue;
+  background-image: url(${(props) => props.bgImage});
 `;
 
 const SectionThree = () => {
-  // const ImagePaths = [
-  //   {
-  //     name: "grid-1",
-  //     bgImage: "/assets/desktop/grid-1.jpg",
-  //   },
-  //   {
-  //     name: "grid-2",
-  //     bgImage: "/assets/desktop/grid-2.jpg",
-  //   },
-  //   {
-  //     name: "grid-3",
-  //     bgImage: "/assets/desktop/grid-3.jpg",
-  //   },
-  //   {
-  //     name: "grid-4",
-  //     bgImage: "/assets/desktop/grid-4.jpg",
-  //   },
-  // ];
-
   return (
     <SectionThreeContainer>
       <ImageWrapper>
-        {/* {ImagePaths.map((imagePath, i) => {
-          return (
-            <Image
-              key={i}
-              style={{ backgroundImage: `url(${imagePath.bgImage})` }}
-            />
-          );
-        })} */}
-        <Image />
-        <Image />
-        <Image />
-        <Image />
+        <Image bgImage={"/assets/desktop/grid-1.jpg"} />
+        <Image bgImage={"/assets/desktop/grid-2.jpg"} />
+        <Image bgImage={"/assets/desktop/grid-3.jpg"} />
+        <Image bgImage={"/assets/desktop/grid-4.jpg"} />
       </ImageWrapper>
     </SectionThreeContainer>
   );
