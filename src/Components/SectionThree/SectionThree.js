@@ -24,12 +24,10 @@ const ImageWrapper = styled.div`
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 20px;
-  background-color: grey;
 `;
 const Image = styled.div`
   height: auto;
   width: auto;
-  background-color: blue;
   background-image: url(${(props) => props.bgImage});
 `;
 
