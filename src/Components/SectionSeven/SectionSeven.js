@@ -6,12 +6,24 @@ const SectionSevenContainer = styled.section`
     width: 100%;
     background: #fff;
 `
+const Header = styled.h2`
+  color: #000000;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: left;
+  padding: 50px;
+  box-sizing: border-box;
+
+
+`
 
 
 
 const SectionSeven = () => {
   return (
     <SectionSevenContainer>
+    <Header>PARKCLAW G 280 STORIES</Header>
     </SectionSevenContainer>
   )
 }
