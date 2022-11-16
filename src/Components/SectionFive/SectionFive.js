@@ -3,27 +3,30 @@ import styled from "styled-components";
 import Button from "../Global/Button/Button";
 
 const SectionFiveContainer = styled.section`
-  height: 100vh;
+  height: 90vh;
   width: 100%;
+  padding-top: 5%;
   background: #fff;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 `;
 const ImageWrapper = styled.div`
-  width: 90%;
-  height: 200px;
+  
   margin-left: auto;
   margin-right: auto;
   display: grid;
   grid-template-columns: auto auto auto auto;
-  grid-gap: 47px;
+  grid-gap: 45px;
+  @media (max-width: 1700px) {
+    grid-template-columns: auto auto;
+
+  }
 `;
-const Image = styled.div`
-  height: auto;
-  width: auto;
-  background-size: cover;
-  background-image: url(${(props) => props.bgImage});
+const Image = styled.img`
+  width: 401px;
+  height: 193px;
+  object-fit: cover;
 `;
 const ButtonContainer = styled.div`
   display: flex;
@@ -36,10 +39,10 @@ const SectionFive = () => {
   return (
     <SectionFiveContainer>
       <ImageWrapper>
-        <Image bgImage={"/assets/desktop/parkclaw-black.jpg"} />
-        <Image bgImage={"/assets/desktop/parkclaw-blue.jpg"} />
-        <Image bgImage={"/assets/desktop/parkclaw-navy.jpg"} />
-        <Image bgImage={"/assets/desktop/parkclaw-red.jpg"} />
+        <Image src="/assets/desktop/parkclaw-black.jpg" />
+        <Image src="/assets/desktop/parkclaw-blue.jpg" />
+        <Image src="/assets/desktop/parkclaw-navy.jpg" />
+        <Image src="/assets/desktop/parkclaw-red.jpg" />
       </ImageWrapper>
       <ButtonContainer>
         <Button buttonText={"SHOP MEN"} bgColor="#00FF00" color="#161615" />
