@@ -17,7 +17,6 @@ const NotificationContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
 `;
 
 const TopRowContainer = styled.div`
@@ -49,16 +48,23 @@ const NotificationText = styled.h3`
   height: auto;
   line-height: 3vw;
 `;
+const IconIndividualContainer = styled.div`
+  width: 2vw;
+`;
 
 const SectionOneNotification = () => {
   return (
     <NotificationContainer>
       <TopRowContainer>
         <TopRowLeft>
-          <BsCalendar3 size={40} color="#fff" />
+          <IconIndividualContainer>
+            <BsCalendar3 size="auto" color="#fff" />
+          </IconIndividualContainer>
           <ReminderText>REMINDER</ReminderText>
         </TopRowLeft>
-        <AiOutlineCloseCircle size={40} color="#fff" />
+        <IconIndividualContainer>
+          <AiOutlineCloseCircle size="auto" color="#fff" />
+        </IconIndividualContainer>
       </TopRowContainer>
       <TextContainer>
         <NotificationText>6AM</NotificationText>
