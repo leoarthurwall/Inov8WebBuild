@@ -4,10 +4,8 @@ import { AiOutlineCloseCircle } from "react-icons/ai";
 import { BsCalendar3 } from "react-icons/bs";
 
 const NotificationContainer = styled.div`
-  top: 71px;
-  left: 70px;
-  width: 615px;
-  height: 251px;
+  width: 32%;
+  height: 23%;
   border: 2px solid #ffffff;
   border-radius: 15px;
 
@@ -19,6 +17,7 @@ const NotificationContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
 `;
 
 const TopRowContainer = styled.div`
@@ -40,7 +39,6 @@ const ReminderText = styled.h4`
 const TextContainer = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 12px;
 `;
 const NotificationText = styled.h3`
   color: #fff;
