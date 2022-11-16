@@ -12,7 +12,6 @@ const SectionFiveContainer = styled.section`
   justify-content: space-evenly;
 `;
 const ImageWrapper = styled.div`
-  
   margin-left: auto;
   margin-right: auto;
   display: grid;
@@ -20,7 +19,6 @@ const ImageWrapper = styled.div`
   grid-gap: 45px;
   @media (max-width: 1700px) {
     grid-template-columns: auto auto;
-
   }
 `;
 const Image = styled.img`
@@ -39,10 +37,19 @@ const SectionFive = () => {
   return (
     <SectionFiveContainer>
       <ImageWrapper>
-        <Image src="/assets/desktop/parkclaw-black.jpg" />
-        <Image src="/assets/desktop/parkclaw-blue.jpg" />
-        <Image src="/assets/desktop/parkclaw-navy.jpg" />
-        <Image src="/assets/desktop/parkclaw-red.jpg" />
+        <Image
+          src="/assets/desktop/parkclaw-black.jpg"
+          alt="parkclaw-black.jpg"
+        />
+        <Image
+          src="/assets/desktop/parkclaw-blue.jpg"
+          alt="parkclaw-blue.jpg"
+        />
+        <Image
+          src="/assets/desktop/parkclaw-navy.jpg"
+          alt="parkclaw-navy.jpg"
+        />
+        <Image src="/assets/desktop/parkclaw-red.jpg" alt="parkclaw-red.jpg" />
       </ImageWrapper>
       <ButtonContainer>
         <Button buttonText={"SHOP MEN"} bgColor="#00FF00" color="#161615" />
