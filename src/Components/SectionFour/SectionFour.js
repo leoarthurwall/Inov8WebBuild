@@ -1,17 +1,15 @@
 import React from "react";
 import styled from "styled-components";
-//SECTION - 
+//SECTION -
 
-const SectionFourContainer = styled.section`
+const SectionFourContainer = styled.img`
   width: 100%;
-  height: 1430px;
-  background-image: url(/assets/desktop/tech.jpg);
-  background-position: 50%;
-  background-size: cover;
+  height: auto;
+  background-size: contain;
 `;
 
 const SectionFour = () => {
-  return <SectionFourContainer />;
+  return <SectionFourContainer src="/assets/desktop/tech.jpg" alt="tech.jpg"/>;
 };
 
 export default SectionFour;
