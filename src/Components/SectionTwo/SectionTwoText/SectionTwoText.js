@@ -9,7 +9,7 @@ const TextContainer = styled.div`
 `;
 
 const Header = styled.h2`
-  font-size: 90px;
+  font-size: 4.3vw;
   font-weight: bold;
   font-family: sans-serif;
   color: #fff;
@@ -20,14 +20,14 @@ const HeaderSpan = styled.span`
 `;
 const SubHeader = styled.h3`
   margin: 0;
-  font-size: 40px;
+  font-size: 2.05vw;
   font-weight: 300;
   color: #fff;
 `;
 const Paragraph = styled.p`
 color: white;
-max-width: 716px;
-font-size: 30px;
+max-width: 40vw;
+font-size: 1.5vw;
 text-align: center;
 `;
 const SectionTwoText = () => {
