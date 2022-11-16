@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const SectionThreeContainer = styled.section`
-  height: 1053px;
+  height: 92vh;
   width: 100%;
   background: #fff;
   position: relative;
@@ -11,8 +11,7 @@ const SectionThreeContainer = styled.section`
   align-items: center;
 `;
 const ImageWrapper = styled.div`
-  width: 1200px;
-  height: 1200px;
+ 
   margin-left: auto;
   margin-right: auto;
   position: absolute;
@@ -23,22 +22,21 @@ const ImageWrapper = styled.div`
 
   display: grid;
   grid-template-columns: auto auto;
-  grid-gap: 20px;
+  grid-gap: 1vw;
 `;
-const Image = styled.div`
-  height: auto;
+const Image = styled.img`
+  height: 30vw;
   width: auto;
-  background-image: url(${(props) => props.bgImage});
 `;
 
 const SectionThree = () => {
   return (
     <SectionThreeContainer>
       <ImageWrapper>
-        <Image bgImage={"/assets/desktop/grid-1.jpg"} />
-        <Image bgImage={"/assets/desktop/grid-2.jpg"} />
-        <Image bgImage={"/assets/desktop/grid-3.jpg"} />
-        <Image bgImage={"/assets/desktop/grid-4.jpg"} />
+        <Image src="/assets/desktop/grid-1.jpg" alt="grid-1.jpg" />
+        <Image src="/assets/desktop/grid-2.jpg" alt="grid-2.jpg" />
+        <Image src="/assets/desktop/grid-3.jpg" alt="grid-3.jpg" />
+        <Image src="/assets/desktop/grid-4.jpg" alt="grid-4.jpg" />
       </ImageWrapper>
     </SectionThreeContainer>
   );
