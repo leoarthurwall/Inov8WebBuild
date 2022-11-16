@@ -2,13 +2,14 @@ import React from "react";
 import styled from "styled-components";
 
 const SectionThreeContainer = styled.section`
-  height: 92vh;
   width: 100%;
+  height: 1050px;
   background: #fff;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+
 `;
 const ImageWrapper = styled.div`
  
@@ -23,10 +24,10 @@ const ImageWrapper = styled.div`
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 1vw;
+
 `;
 const Image = styled.img`
-  height: 30vw;
-  width: auto;
+  width: 580px;
 `;
 
 const SectionThree = () => {
