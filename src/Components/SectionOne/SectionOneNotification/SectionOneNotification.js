@@ -4,15 +4,15 @@ import { AiOutlineCloseCircle } from "react-icons/ai";
 import { BsCalendar3 } from "react-icons/bs";
 
 const NotificationContainer = styled.div`
-  width: 32%;
-  height: 23%;
+  width: 32vw;
+  height: 13vw;
   border: 2px solid #ffffff;
   border-radius: 15px;
 
   position: absolute;
   top: 70px;
   left: 70px;
-  padding: 37px;
+  padding: 1.5%;
 
   display: flex;
   flex-direction: column;
@@ -34,7 +34,7 @@ const TopRowLeft = styled.div`
 const ReminderText = styled.h4`
   color: #fff;
   margin: 0;
-  font-size: 20px;
+  font-size: 1.1vw;
 `;
 const TextContainer = styled.div`
   display: flex;
@@ -44,9 +44,10 @@ const NotificationText = styled.h3`
   color: #fff;
   font-weight: 600;
   font-family: sans-serif;
-  font-size: 64px;
+  font-size: 2.5vw;
   margin: 0;
   height: auto;
+  line-height: 3vw;
 `;
 
 const SectionOneNotification = () => {
