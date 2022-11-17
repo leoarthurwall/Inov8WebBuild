@@ -1,13 +1,14 @@
 import React from "react";
 import styled from "styled-components";
-//SECTION -
+//SECTION - TECH
 
 const Image = styled.img`
   width: 100%;
   height: auto;
-  background-size: contain;
+  object-fit: contain;
 `;
 
+//need to change image for mobile
 
 const SectionFour = () => {
   return <Image src="/assets/desktop/tech.jpg" alt="tech.jpg"/>;

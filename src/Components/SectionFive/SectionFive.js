@@ -3,13 +3,17 @@ import styled from "styled-components";
 import Button from "../Global/Button/Button";
 
 const SectionFiveContainer = styled.section`
-  height: 90vh;
+  height: auto;
   width: 100%;
-  padding-top: 5%;
+  padding-top: 15%;
+  padding-bottom: 10%;
   background: #fff;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  @media (max-width: 1700px) {
+    padding-top: 10%;
+  }
 `;
 const ImageWrapper = styled.div`
   margin-left: auto;
@@ -20,17 +24,30 @@ const ImageWrapper = styled.div`
   @media (max-width: 1700px) {
     grid-template-columns: auto auto;
   }
+  @media (max-width: 700px) {
+    grid-template-columns: auto;
+  }
 `;
 const Image = styled.img`
   width: 401px;
-  height: 193px;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
+  @media only screen and (max-width: 900px) {
+    width: 40vw;
+  }
+  @media (max-width: 700px) {
+    width: 80vw;
+  }
 `;
 const ButtonContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  padding-top: 10%;
+  @media (max-width: 1700px) {
+    padding-top: 5%;
+  }
 `;
 
 const SectionFive = () => {
