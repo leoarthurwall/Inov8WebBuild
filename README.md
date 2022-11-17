@@ -4,9 +4,9 @@
 
 ## TASKS
 
-1 - make tablet responsive
-2 - make mobile responsive
+1 - make tablet responsive - DONE
+2 - make mobile responsive - DONE
 3 - correct alt tags
 4 - global styles (colors, fonts)
-5 - add code to change img file depending on screen size
-6 - report web vitals
+5 - add code to change img file depending on screen size (srcset)
+6 - report web vitals - lighthouse score 

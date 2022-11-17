@@ -23,7 +23,7 @@ const NotificationContainer = styled.div`
     height: 173px;
     padding: 19px;
   }
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 550px) {
     top: 5%;
     left: 50%;
     transform: translate(-50%);

@@ -12,6 +12,9 @@ const SectionThreeContainer = styled.section`
   @media only screen and (max-width: 1280px) {
    height: 85vw;
   }
+  @media only screen and (max-width: 480px) {
+    height: 100vw;
+  }
 `;
 const ImageWrapper = styled.div`
   position: absolute;
