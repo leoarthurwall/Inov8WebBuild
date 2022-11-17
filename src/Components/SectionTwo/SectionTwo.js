@@ -16,6 +16,8 @@ const SectionTwoContainer = styled.section`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  @media only screen and (max-width: 760px) {
+padding-bottom: 20%  }
 `;
 
 const ButtonContainer = styled.div`
