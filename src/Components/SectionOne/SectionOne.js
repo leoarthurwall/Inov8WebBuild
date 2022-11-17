@@ -18,6 +18,10 @@ const SectionOneContainer = styled.section`
     background-position: 25%; 
     height: 100vh;
   }
+  @media only screen and (max-width: 480px) {
+    background-position: 25%; 
+    height: 75vh;
+  }
  
 `;
 
