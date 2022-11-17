@@ -26,6 +26,10 @@ const VideoContainer = styled.div`
   align-items: center;
 
   margin: 50px;
+  @media only screen and (max-width: 480px) {
+    margin: 50px 0;
+
+  }
 `;
 
 const VideoText = styled.h1`
