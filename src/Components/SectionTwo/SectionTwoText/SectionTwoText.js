@@ -51,11 +51,8 @@ const Paragraph = styled.p`
   font-size: 1.5vw;
   text-align: center;
   @media only screen and (max-width: 1280px) {
-    max-width: 600px;
-    font-size: 20px;
-  }
-  @media only screen and (max-width: 780px) {
     max-width: 500px;
+    font-size: 20px;
   }
   @media only screen and (max-width: 480px) {
     font-size: 5.5vw;

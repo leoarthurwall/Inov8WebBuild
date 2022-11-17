@@ -23,11 +23,24 @@ const ButtonContainer = styled.div`
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  @media only screen and (max-width: 760px) {
+   flex-direction: column;
+  }
 `;
 const Image = styled.img`
   width: 44vw;
   height: auto;
   object-fit: cover;
+  @media only screen and (max-width: 1280px) {
+   width: 500px;
+  }
+  @media only screen and (max-width: 760px) {
+   width: 75vw;
+  }
+  @media only screen and (max-width: 480px) {
+   width: 90vw;
+  }
+  
 `;
 const SectionTwo = () => {
   return (
