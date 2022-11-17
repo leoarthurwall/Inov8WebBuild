@@ -54,6 +54,7 @@ const Paragraph = styled.p`
     max-width: 500px;
     font-size: 20px;
   }
+
   @media only screen and (max-width: 480px) {
     font-size: 5.5vw;
   }

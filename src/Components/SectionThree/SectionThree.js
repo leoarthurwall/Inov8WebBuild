@@ -9,6 +9,9 @@ const SectionThreeContainer = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
+  @media only screen and (max-width: 1280px) {
+   height: 85vw;
+  }
 `;
 const ImageWrapper = styled.div`
   position: absolute;
@@ -18,6 +21,12 @@ const ImageWrapper = styled.div`
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 1vw;
+  @media only screen and (max-width: 1280px) {
+   padding: 0 3%;
+  }
+  @media only screen and (max-width: 480px) {
+   padding: 0;
+  }
 `;
 const Image = styled.img`
   width: 100%;
