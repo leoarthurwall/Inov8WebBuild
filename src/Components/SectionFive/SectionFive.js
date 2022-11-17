@@ -56,31 +56,72 @@ const SectionFive = () => {
 
   return (
     <SectionFiveContainer>
-      <ImageWrapper>
-        <Image
-          src="/assets/desktop/parkclaw-black.jpg"
-          alt="parkclaw-black.jpg"
-        />
-        <Image
-          src="/assets/desktop/parkclaw-blue.jpg"
-          alt="parkclaw-blue.jpg"
-        />
-        {isTabletOrMobile ? (
-          <Button buttonText={"SHOP MEN"} bgColor="#00FF00" color="#161615" />
-        ) : null}
-        <Image
-          src="/assets/desktop/parkclaw-navy.jpg"
-          alt="parkclaw-navy.jpg"
-        />
-        <Image src="/assets/desktop/parkclaw-red.jpg" alt="parkclaw-red.jpg" />
-      </ImageWrapper>
       {!isTabletOrMobile ? (
-        <ButtonContainer>
-          <Button buttonText={"SHOP MEN"} bgColor="#00FF00" color="#161615" />
-          <Button buttonText={"SHOP WOMEN"} bgColor="#00FF00" color="#161615" />
-        </ButtonContainer>
+        <>
+          <ImageWrapper>
+            <Image
+              src="/assets/desktop/parkclaw-black.jpg"
+              alt="parkclaw-black.jpg"
+            />
+            <Image
+              src="/assets/desktop/parkclaw-blue.jpg"
+              alt="parkclaw-blue.jpg"
+            />
+            <Image
+              src="/assets/desktop/parkclaw-navy.jpg"
+              alt="parkclaw-navy.jpg"
+            />
+            <Image
+              src="/assets/desktop/parkclaw-red.jpg"
+              alt="parkclaw-red.jpg"
+            />
+          </ImageWrapper>
+
+          <ButtonContainer>
+            <Button buttonText={"SHOP MEN"} bgColor="#00FF00" color="#161615" />
+            <Button
+              buttonText={"SHOP WOMEN"}
+              bgColor="#00FF00"
+              color="#161615"
+            />
+          </ButtonContainer>
+        </>
       ) : (
-        <Button buttonText={"SHOP WOMEN"} bgColor="#00FF00" color="#161615" />
+        <>
+          <ImageWrapper>
+            <Image
+              src="/assets/desktop/parkclaw-navy.jpg"
+              alt="parkclaw-navy.jpg"
+            />
+            <Image
+              src="/assets/desktop/parkclaw-red.jpg"
+              alt="parkclaw-red.jpg"
+            />
+            <ButtonContainer>
+              <Button
+                buttonText={"SHOP MEN"}
+                bgColor="#00FF00"
+                color="#161615"
+              />
+            </ButtonContainer>
+            <Image
+              src="/assets/desktop/parkclaw-black.jpg"
+              alt="parkclaw-black.jpg"
+            />
+            <Image
+              src="/assets/desktop/parkclaw-blue.jpg"
+              alt="parkclaw-blue.jpg"
+            />
+          </ImageWrapper>
+
+          <ButtonContainer>
+            <Button
+              buttonText={"SHOP WOMEN"}
+              bgColor="#00FF00"
+              color="#161615"
+            />
+          </ButtonContainer>
+        </>
       )}
     </SectionFiveContainer>
   );
