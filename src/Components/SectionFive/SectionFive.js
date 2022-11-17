@@ -38,6 +38,7 @@ const Image = styled.img`
   }
   @media (max-width: 700px) {
     width: 80vw;
+    max-width: 400px;
   }
 `;
 const ButtonContainer = styled.div`
