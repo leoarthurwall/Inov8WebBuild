@@ -17,7 +17,10 @@ const Header = styled.h2`
   box-sizing: border-box;
   margin: 0;
   @media (max-width: 480px) {
-    font-size: 33px;
+    font-size: 26px;
+    padding: 75px 25px 0 25px;
+
+
   }
 `;
 
@@ -30,6 +33,9 @@ const GridContainer = styled.div`
   overflow: scroll;
   @media (max-width: 1280px) {
     grid-gap: 30px;
+  }
+  @media (max-width: 480px) {
+    padding: 35px;
   }
 `;
 
