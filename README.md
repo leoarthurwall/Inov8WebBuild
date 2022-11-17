@@ -10,3 +10,17 @@
 4 - global styles (colors, fonts)
 5 - add code to change img file depending on screen size (srcset)
 6 - report web vitals - lighthouse score 
+
+
+## Lighthouse Scores
+
+### Mobile - Initial scores (once build was finished)
+![InitialLighthouseOverall](public/images/lighthouseSummaryInitialMobile.png)
+![InitialLighthouseMetrics](public/images/lighthouseMetricsInitialMobile.png)
+![InitialLighthouseOpportunities](public/images/lighthousePerformanceInitialMobile.png)
+
+### Desktop - Initial scores (once build was finished)
+
+![InitialLighthouseOverall](public/images/lighthouseSummaryInitialDesktop.png)
+![InitialLighthouseMetrics](public/images/lighthouseMetricsInitialDesktop.png)
+![InitialLighthouseOpportunities](public/images/lighthouseOpportunitiesInitialDesktop.png)
