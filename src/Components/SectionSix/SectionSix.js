@@ -9,7 +9,12 @@ const SectionSixContainer = styled.section`
   justify-content: center;
   align-items: center;
   background-color: #ffffff;
-
+  @media (max-width: 1280px) {
+    height: 75vw;
+    @media (max-width: 480px) {
+    height: 60vh;
+  }
+  }
 `;
 const VideoContainer = styled.div`
   height: 100%;
@@ -23,14 +28,16 @@ const VideoContainer = styled.div`
   margin: 50px;
 `;
 
-
 const VideoText = styled.h1`
-    color: #707070;
-    font-family: sans-serif; 
-    ${'' /* font-family: DINPro; */}
-    font-weight: bold;
-    font-size: 100px;
-`
+  color: #707070;
+  font-family: sans-serif;
+  ${"" /* font-family: DINPro; */}
+  font-weight: bold;
+  font-size: 100px;
+  @media (max-width: 1280px) {
+    font-size: 8vw;
+  }
+`;
 
 const SectionSix = () => {
   return (
