@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Button from "../Global/Button/Button";
+import { useMediaQuery } from "react-responsive";
 
 const SectionFiveContainer = styled.section`
   height: auto;
@@ -51,6 +52,8 @@ const ButtonContainer = styled.div`
 `;
 
 const SectionFive = () => {
+  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 700px)" });
+
   return (
     <SectionFiveContainer>
       <ImageWrapper>
@@ -62,16 +65,23 @@ const SectionFive = () => {
           src="/assets/desktop/parkclaw-blue.jpg"
           alt="parkclaw-blue.jpg"
         />
+        {isTabletOrMobile ? (
+          <Button buttonText={"SHOP MEN"} bgColor="#00FF00" color="#161615" />
+        ) : null}
         <Image
           src="/assets/desktop/parkclaw-navy.jpg"
           alt="parkclaw-navy.jpg"
         />
         <Image src="/assets/desktop/parkclaw-red.jpg" alt="parkclaw-red.jpg" />
       </ImageWrapper>
-      <ButtonContainer>
-        <Button buttonText={"SHOP MEN"} bgColor="#00FF00" color="#161615" />
+      {!isTabletOrMobile ? (
+        <ButtonContainer>
+          <Button buttonText={"SHOP MEN"} bgColor="#00FF00" color="#161615" />
+          <Button buttonText={"SHOP WOMEN"} bgColor="#00FF00" color="#161615" />
+        </ButtonContainer>
+      ) : (
         <Button buttonText={"SHOP WOMEN"} bgColor="#00FF00" color="#161615" />
-      </ButtonContainer>
+      )}
     </SectionFiveContainer>
   );
 };
