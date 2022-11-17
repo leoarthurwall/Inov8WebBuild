@@ -28,8 +28,8 @@ const NotificationContainer = styled.div`
     left: 50%;
     transform: translate(-50%);
 
-    width: 85%;
-    height: 25%;
+    width: 85vw;
+    height: 35vw;
     padding: 4%;
   }
 `;
@@ -49,7 +49,7 @@ const ReminderText = styled.h4`
   color: #fff;
   margin: 0;
   font-size: 1.1vw;
-  @media only screen and (max-width: 1280px) and (min-width: 429px) {
+  @media only screen and (max-width: 1280px) {
     font-size: 14px;
   }
 `;
@@ -65,14 +65,18 @@ const NotificationText = styled.h3`
   margin: 0;
   height: auto;
   line-height: 3vw;
-  @media only screen and (max-width: 1280px) and (min-width: 429px) {
+  @media only screen and (max-width: 1280px) {
     font-size: 32px;
     line-height: 36px;
+  }
+  @media only screen and (max-width: 1280px) {
+    font-size: 6.5vw;
+    line-height: 7vw;
   }
 `;
 const IconIndividualContainer = styled.div`
   width: 2vw;
-  @media only screen and (max-width: 1280px) and (min-width: 429px) {
+  @media only screen and (max-width: 1280px) {
     width: 24px;
   }
 `;
