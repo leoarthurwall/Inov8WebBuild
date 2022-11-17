@@ -5,20 +5,28 @@ import SectionOneNotification from "./SectionOneNotification/SectionOneNotificat
 
 const SectionOneContainer = styled.section`
   width: 100%;
-  height: 100vh;
-  background-position: 50%;
+  height: 80vh;
   background-size: cover;
+  background-repeat: no-repeat;
   position: relative;
   background-image: url(/assets/desktop/header.jpg);
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media only screen and (max-width: 761px) {
+    background-position: 25%; 
+    height: 100vh;
+  }
+ 
 `;
 
 const SectionOne = () => {
-  return <SectionOneContainer>
-    <SectionOneNotification />
-  </SectionOneContainer>;
+  return (
+    <SectionOneContainer>
+      <SectionOneNotification />
+    </SectionOneContainer>
+  );
 };
 
 export default SectionOne;

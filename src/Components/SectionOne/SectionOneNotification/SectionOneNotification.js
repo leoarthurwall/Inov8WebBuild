@@ -23,6 +23,15 @@ const NotificationContainer = styled.div`
     height: 173px;
     padding: 19px;
   }
+  @media only screen and (max-width: 480px) {
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%);
+
+    width: 85%;
+    height: 25%;
+    padding: 4%;
+  }
 `;
 
 const TopRowContainer = styled.div`
@@ -59,7 +68,6 @@ const NotificationText = styled.h3`
   @media only screen and (max-width: 1280px) and (min-width: 429px) {
     font-size: 32px;
     line-height: 36px;
-
   }
 `;
 const IconIndividualContainer = styled.div`
