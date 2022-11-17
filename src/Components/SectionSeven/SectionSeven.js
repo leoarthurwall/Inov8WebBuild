@@ -16,7 +16,9 @@ const Header = styled.h2`
   padding: 100px 50px 0 50px;
   box-sizing: border-box;
   margin: 0;
-
+  @media (max-width: 480px) {
+    font-size: 33px;
+  }
 `;
 
 const GridContainer = styled.div`
@@ -25,21 +27,31 @@ const GridContainer = styled.div`
   grid-template-rows: auto auto;
   grid-gap: 2.2vw;
   padding: 50px;
+  overflow: scroll;
+  @media (max-width: 1280px) {
+    grid-gap: 30px;
+  }
 `;
 
 const Image = styled.img`
   width: 100%;
+  min-width: 344px;
   height: auto;
   object-fit: cover;
 
+  @media (max-width: 480px) {
+    width: 344px;
+  }
 `;
 const Text = styled.h4`
   font-size: 20px;
   color: #000;
   font-family: sans-serif;
   padding-left: 35px;
+  padding-right: 35px;
+
   margin: 0;
-  font-weight:300;
+  font-weight: 300;
 `;
 
 const SectionSeven = () => {
