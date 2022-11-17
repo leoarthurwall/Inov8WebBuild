@@ -17,6 +17,12 @@ const NotificationContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  @media only screen and (max-width: 1280px) and (min-width: 429px) {
+    width: 425px;
+    height: 173px;
+    padding: 19px;
+  }
 `;
 
 const TopRowContainer = styled.div`
@@ -34,6 +40,9 @@ const ReminderText = styled.h4`
   color: #fff;
   margin: 0;
   font-size: 1.1vw;
+  @media only screen and (max-width: 1280px) and (min-width: 429px) {
+    font-size: 14px;
+  }
 `;
 const TextContainer = styled.div`
   display: flex;
@@ -47,9 +56,17 @@ const NotificationText = styled.h3`
   margin: 0;
   height: auto;
   line-height: 3vw;
+  @media only screen and (max-width: 1280px) and (min-width: 429px) {
+    font-size: 32px;
+    line-height: 36px;
+
+  }
 `;
 const IconIndividualContainer = styled.div`
   width: 2vw;
+  @media only screen and (max-width: 1280px) and (min-width: 429px) {
+    width: 24px;
+  }
 `;
 
 const SectionOneNotification = () => {
