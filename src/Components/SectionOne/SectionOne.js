@@ -16,9 +16,7 @@ const SectionOneContainer = styled.section`
   @media only screen and (max-width: 768px) {
     height: 100vh;
   }
-  @media only screen and (max-width: 428px) {
-    height: 75vh;
-  }
+ 
 `;
 
 const SectionOne = () => {
