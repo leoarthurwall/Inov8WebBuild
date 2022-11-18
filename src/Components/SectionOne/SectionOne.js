@@ -10,7 +10,7 @@ const SectionOneContainer = styled.section`
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  background-image: url(/assets/desktop/header.jpg);
+  background-image: ${({ isMobile }) => (isMobile ? "url(/assets/mobile/header.jpg)" : "url(/assets/desktop/header.jpg)")};
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,13 +25,12 @@ const SectionOneContainer = styled.section`
 
 const SectionOne = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 428px)" });
-  const isTablet = useMediaQuery({ query: "(max-width: 768px)" });
   
 
 
 
   return (
-    <SectionOneContainer alt="three runners in a park looking at central London">
+    <SectionOneContainer isMobile={isMobile} alt="three runners in a park looking at central London">
       <SectionOneNotification />
     </SectionOneContainer>
   );
