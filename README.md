@@ -24,21 +24,6 @@ In some cases I used custom media query break points as this enabled smoother re
 
 After the webpage was made mobile responsive, I ran a lighthouse test to see how it performed. You can see the results for mobile and desktop below. 
 
-## FUTURE STEPS
-
-## TASKS
-
-1 - make tablet responsive - DONE
-2 - make mobile responsive - DONE
-3 - correct alt tags - DONE
-4 - global styles (colors, fonts, queries)
-5 - add code to change img file depending on screen size (srcset)
-6 - report web vitals - lighthouse score (DONE - Initial)
-7 - Documentation (Readme)
-8 - Comment code
-9 - refactor code
-10 - Deploy site - DONE
-
 ## DEPLOYED SITE
 
 https://inov8lw.netlify.app/
@@ -59,11 +44,13 @@ https://inov8lw.netlify.app/
 
 ### - lighthouse: moving forward
 
-Performance seems to be the area of improvement, particuarly for mobile. According to the lighthouse analysis, it is largely to do with the images.
+Performance seems to be the area of improvement, particuarly for mobile. According to the lighthouse analysis, it is largely to do with the images. 
 
 Moving forward, I will create a react srcset for all image sizes. This should improve performance.
 
-### the solution srcSet?
+I would also look into the other opportunities and work to resolve them one by one.
+
+###  srcSet attempt
 
 I tried implementing the srcSet attribute on the header image in section one as followed:
 
@@ -78,6 +65,13 @@ I didn't manage to get it to work. So this will be something I look into in the 
 For now I will use conditional rendering media queries.
 
 
-## QUESTIONS
+## FUTURE MOVES
 
-1 - height of each section: the heights vary between sections, what's the best way to calculate them? Fit everything within a set viewport (vh100), or based on spacing between section content?
+In addition to improving the lighthouse analysis, there are a few other things I would account for:
+
+- Refactoring the code, for instance section 5 I conditionally rendered 2 different displays depending on screen width. I could make sub components for each (mobile / tabletAndDesktop) and then import them into the section 5 jsx. This would keep the section 5 page cleaner.
+
+- Dynamic global values for fonts, colors & media queries
+  - This would have kept the code cleaner and more dynamic
+
+- Impove webiste build, based off feedback. (best practices)
