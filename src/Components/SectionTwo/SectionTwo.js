@@ -51,7 +51,7 @@ const SectionTwo = () => {
       <SectionTwoText />
       <Image
         src="/assets/desktop/parkclaw-large.jpg"
-        alt="parkclaw-large.jpg"
+        alt="the parkclaw running shoe in yellow"
       />
       <ButtonContainer>
         <Button buttonText={"SHOP MEN"} bgColor="#fff" color="#000" />

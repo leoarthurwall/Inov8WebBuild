@@ -40,10 +40,10 @@ const SectionThree = () => {
   return (
     <SectionThreeContainer>
       <ImageWrapper>
-        <Image src="/assets/desktop/grid-1.jpg" alt="grid-1.jpg" />
-        <Image src="/assets/desktop/grid-2.jpg" alt="grid-2.jpg" />
-        <Image src="/assets/desktop/grid-3.jpg" alt="grid-3.jpg" />
-        <Image src="/assets/desktop/grid-4.jpg" alt="grid-4.jpg" />
+        <Image src="/assets/desktop/grid-1.jpg" alt="A man running up stairs." />
+        <Image src="/assets/desktop/grid-2.jpg" alt="A closeup of the yellow parkclaw running shoe being used by someone" />
+        <Image src="/assets/desktop/grid-3.jpg" alt="A closeup from behind of the navy parkclaw running shoe being used by someone" />
+        <Image src="/assets/desktop/grid-4.jpg" alt="Three trail runners in action wearing the parkclaw running shoes" />
       </ImageWrapper>
     </SectionThreeContainer>
   );

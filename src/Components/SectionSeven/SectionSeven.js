@@ -61,7 +61,6 @@ const Text = styled.h4`
   margin: 0;
   font-weight: 300;
   cursor: pointer;
-
 `;
 
 const SectionSeven = () => {
@@ -69,9 +68,18 @@ const SectionSeven = () => {
     <SectionSevenContainer>
       <Header>PARKCLAW G 280 STORIES</Header>
       <GridContainer>
-        <Image src="/assets/desktop/story-1.jpg" alt="story-1.jpg" />
-        <Image src="/assets/desktop/story-2.jpg" alt="story-2.jpg" />
-        <Image src="/assets/desktop/story-3.jpg" alt="story-3.jpg" />
+        <Image
+          src="/assets/desktop/story-1.jpg"
+          alt="Parkclaw g 280 running shoe soul and design drawing. Directs to an article on the story behind the design."
+        />
+        <Image
+          src="/assets/desktop/story-2.jpg"
+          alt="A lady trail running with her dog. Directs to an article on top 10 parks in London to run in."
+        />
+        <Image
+          src="/assets/desktop/story-3.jpg"
+          alt="Three trail runners in action on a sunny winter's day. Directs to an article on how to find and explore your local trails"
+        />
         <Text>Behind the design of the Parkclaw G 280</Text>
         <Text>Top 10 London Parks to run in</Text>
         <Text>How to find and explore your local trails</Text>

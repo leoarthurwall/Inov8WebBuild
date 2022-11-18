@@ -27,7 +27,7 @@ const SectionOneContainer = styled.section`
 
 const SectionOne = () => {
   return (
-    <SectionOneContainer>
+    <SectionOneContainer alt="three runners in a park looking at central London">
       <SectionOneNotification />
     </SectionOneContainer>
   );

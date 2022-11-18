@@ -65,19 +65,19 @@ const SectionFive = () => {
           <ImageWrapper>
             <Image
               src="/assets/desktop/parkclaw-black.jpg"
-              alt="parkclaw-black.jpg"
+              alt=" directs to the parkclaw black running show page"
             />
             <Image
               src="/assets/desktop/parkclaw-blue.jpg"
-              alt="parkclaw-blue.jpg"
+              alt="directs to the parkclaw blue running show page"
             />
             <Image
               src="/assets/desktop/parkclaw-navy.jpg"
-              alt="parkclaw-navy.jpg"
+              alt="directs to the parkclaw navy running show page"
             />
             <Image
               src="/assets/desktop/parkclaw-red.jpg"
-              alt="parkclaw-red.jpg"
+              alt="directs to the parkclaw red running show page"
             />
           </ImageWrapper>
 
@@ -95,11 +95,11 @@ const SectionFive = () => {
           <ImageWrapper>
             <Image
               src="/assets/desktop/parkclaw-navy.jpg"
-              alt="parkclaw-navy.jpg"
+              alt="directs to the parkclaw navy running show page"
             />
             <Image
               src="/assets/desktop/parkclaw-red.jpg"
-              alt="parkclaw-red.jpg"
+              alt="directs to the parkclaw red running show page"
             />
             <ButtonContainer>
               <Button
@@ -110,11 +110,11 @@ const SectionFive = () => {
             </ButtonContainer>
             <Image
               src="/assets/desktop/parkclaw-black.jpg"
-              alt="parkclaw-black.jpg"
+              alt="directs to the parkclaw black running show page"
             />
             <Image
               src="/assets/desktop/parkclaw-blue.jpg"
-              alt="parkclaw-blue.jpg"
+              alt="directs to the parkclaw blue running show page"
             />
           </ImageWrapper>
 

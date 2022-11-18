@@ -11,7 +11,7 @@ const Image = styled.img`
 //need to change image for mobile
 
 const SectionFour = () => {
-  return <Image src="/assets/desktop/tech.jpg" alt="tech.jpg"/>;
+  return <Image src="/assets/desktop/tech.jpg" alt="The key technologies of the Inovate parkclaw running show"/>;
 };
 
 export default SectionFour;
