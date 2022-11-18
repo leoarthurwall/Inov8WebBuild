@@ -11,9 +11,7 @@ const SectionOneContainer = styled.section`
   background-repeat: no-repeat;
   position: relative;
   background-image: ${({ isMobile }) => (isMobile ? "url(/assets/mobile/header.jpg)" : "url(/assets/desktop/header.jpg)")};
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-position: 25%;
 
   @media only screen and (max-width: 768px) {
     height: 100vh;
