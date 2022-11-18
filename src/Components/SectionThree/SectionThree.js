@@ -12,7 +12,7 @@ const SectionThreeContainer = styled.section`
   @media only screen and (max-width: 1280px) {
    height: 85vw;
   }
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 428px) {
     height: 100vw;
   }
 `;
@@ -27,7 +27,7 @@ const ImageWrapper = styled.div`
   @media only screen and (max-width: 1280px) {
    padding: 0 3%;
   }
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 428px) {
    padding: 0;
   }
 `;

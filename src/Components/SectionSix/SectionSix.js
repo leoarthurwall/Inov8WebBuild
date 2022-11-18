@@ -11,7 +11,7 @@ const SectionSixContainer = styled.section`
   background-color: #ffffff;
   @media (max-width: 1280px) {
     height: 75vw;
-    @media (max-width: 480px) {
+    @media (max-width: 428px) {
     height: 60vh;
   }
   }
@@ -28,7 +28,7 @@ const VideoContainer = styled.div`
   margin: 50px;
   cursor: pointer;
 
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 428px) {
     margin: 50px 0;
 
   }

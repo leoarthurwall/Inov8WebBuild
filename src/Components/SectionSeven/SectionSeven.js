@@ -16,10 +16,10 @@ const Header = styled.h2`
   padding: 100px 50px 0 50px;
   box-sizing: border-box;
   margin: 0;
-  @media (max-width: 760px) {
+  @media (max-width: 768px) {
     font-size: 30px;
   }
-  @media (max-width: 480px) {
+  @media (max-width: 428px) {
     font-size: 26px;
     padding: 75px 25px 0 25px;
   }
@@ -35,7 +35,7 @@ const GridContainer = styled.div`
   @media (max-width: 1280px) {
     grid-gap: 30px;
   }
-  @media (max-width: 480px) {
+  @media (max-width: 428px) {
     padding: 35px;
   }
 `;
@@ -47,7 +47,7 @@ const Image = styled.img`
   object-fit: cover;
   cursor: pointer;
 
-  @media (max-width: 480px) {
+  @media (max-width: 428px) {
     width: 344px;
   }
 `;

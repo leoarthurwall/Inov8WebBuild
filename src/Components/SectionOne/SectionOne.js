@@ -15,10 +15,10 @@ const SectionOneContainer = styled.section`
   justify-content: center;
   align-items: center;
 
-  @media only screen and (max-width: 761px) {
+  @media only screen and (max-width: 768px) {
     height: 100vh;
   }
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 428px) {
     height: 75vh;
   }
 `;

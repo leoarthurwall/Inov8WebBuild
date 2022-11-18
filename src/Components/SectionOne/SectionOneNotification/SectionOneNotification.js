@@ -69,7 +69,7 @@ const NotificationText = styled.h3`
     font-size: 32px;
     line-height: 36px;
   }
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 428px) {
     font-size: 6.5vw;
     line-height: 7vw;
   }

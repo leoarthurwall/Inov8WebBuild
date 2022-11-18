@@ -41,7 +41,7 @@ const SubHeader = styled.h3`
   @media only screen and (max-width: 1280px) {
     font-size: 26px;
   }
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 428px) {
     font-size: 5.5vw;
   }
 `;
@@ -55,7 +55,7 @@ const Paragraph = styled.p`
     font-size: 20px;
   }
 
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 428px) {
     font-size: 5.5vw;
   }
 `;

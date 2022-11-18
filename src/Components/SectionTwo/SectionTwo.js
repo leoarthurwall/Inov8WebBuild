@@ -17,7 +17,7 @@ const SectionTwoContainer = styled.section`
   align-items: center;
   flex-direction: column;
   
-  @media only screen and (max-width: 760px) {
+  @media only screen and (max-width: 768px) {
     padding-top: 12%;
     padding-bottom: 20%;
   }
@@ -28,7 +28,7 @@ const ButtonContainer = styled.div`
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  @media only screen and (max-width: 760px) {
+  @media only screen and (max-width: 768px) {
     flex-direction: column;
   }
 `;
@@ -39,10 +39,10 @@ const Image = styled.img`
   @media only screen and (max-width: 1280px) {
     width: 500px;
   }
-  @media only screen and (max-width: 760px) {
+  @media only screen and (max-width: 768px) {
     width: 75vw;
   }
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 428px) {
     width: 90vw;
   }
 `;
