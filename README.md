@@ -6,7 +6,7 @@
 
 1 - make tablet responsive - DONE
 2 - make mobile responsive - DONE
-3 - correct alt tags 
+3 - correct alt tags - DONE
 4 - global styles (colors, fonts, queries)
 5 - add code to change img file depending on screen size (srcset)
 6 - report web vitals - lighthouse score (DONE - Initial)
@@ -17,12 +17,12 @@
 
 ## DEPLOYED SITE
 
-https://inov8lw.netlify.app/ 
-
+https://inov8lw.netlify.app/
 
 ## Lighthouse Scores
 
 ### Mobile - Initial scores (once build was finished)
+
 ![InitialLighthouseOverall](public/images/lighthouseSummaryInitialMobile.png)
 ![InitialLighthouseMetrics](public/images/lighthouseMetricsInitialMobile.png)
 ![InitialLighthouseOpportunities](public/images/lighthousePerformanceInitialMobile.png)
@@ -35,6 +35,22 @@ https://inov8lw.netlify.app/
 
 ### - lighthouse: moving forward
 
-Performance seems to be the area of improvement, particuarly for mobile. According to the lighthouse analysis, it is largely to do with the images. 
+Performance seems to be the area of improvement, particuarly for mobile. According to the lighthouse analysis, it is largely to do with the images.
 
-Moving forward, I will create a react srcset for all image sizes. This should improve performance. 
+Moving forward, I will create a react srcset for all image sizes. This should improve performance.
+
+### the solution srcSet?
+
+I tried implementing the srcSet attribute on the header image in section one as followed:
+
+```
+    srcSet="/assets/desktop/header.jpg 1920w, /assets/tablet/header.jpg 768w, /assets/mobile/header.jpg 428w "
+
+    sizes="(max-width 428px) 100vw, (max-width 768px) 100vw, (max-width 1950px) 100vw"
+```
+
+I didn't manage to get it to work. So this will be something I look into in the future to help improve performance. 
+
+For now I will use conditional rendering media queries.
+
+

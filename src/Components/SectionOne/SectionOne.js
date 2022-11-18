@@ -1,6 +1,7 @@
-import React from "react";
 import styled from "styled-components";
 import SectionOneNotification from "./SectionOneNotification/SectionOneNotification";
+import { useMediaQuery } from "react-responsive";
+
 //SECTION - HEADER
 
 const SectionOneContainer = styled.section`
@@ -15,17 +16,20 @@ const SectionOneContainer = styled.section`
   align-items: center;
 
   @media only screen and (max-width: 761px) {
-    background-position: 25%; 
     height: 100vh;
   }
   @media only screen and (max-width: 480px) {
-    background-position: 25%; 
     height: 75vh;
   }
- 
 `;
 
 const SectionOne = () => {
+  const isMobile = useMediaQuery({ query: "(max-width: 428px)" });
+  const isTablet = useMediaQuery({ query: "(max-width: 768px)" });
+  
+
+
+
   return (
     <SectionOneContainer alt="three runners in a park looking at central London">
       <SectionOneNotification />
