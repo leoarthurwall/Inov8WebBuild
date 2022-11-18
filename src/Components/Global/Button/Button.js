@@ -8,6 +8,7 @@ const ButtonContainer = styled.button`
   border: none;
   color: ${(props) => props.color};
   font-weight: bold;
+  cursor: pointer;
 `;
 
 const Button = ({ buttonText, bgColor, color }) => {

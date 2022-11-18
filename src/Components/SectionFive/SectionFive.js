@@ -33,6 +33,9 @@ const Image = styled.img`
   width: 401px;
   height: auto;
   object-fit: contain;
+  cursor: pointer;
+
+
   @media only screen and (max-width: 900px) {
     width: 40vw;
   }

@@ -9,7 +9,10 @@
 3 - correct alt tags
 4 - global styles (colors, fonts)
 5 - add code to change img file depending on screen size (srcset)
-6 - report web vitals - lighthouse score 
+6 - report web vitals - lighthouse score (DONE - Initial)
+7 - Documentation (Readme)
+8 - Comment code
+9 - refactor code
 
 
 ## Lighthouse Scores
@@ -24,3 +27,9 @@
 ![InitialLighthouseOverall](public/images/lighthouseSummaryInitialDesktop.png)
 ![InitialLighthouseMetrics](public/images/lighthouseMetricsInitialDesktop.png)
 ![InitialLighthouseOpportunities](public/images/lighthouseOpportunitiesInitialDesktop.png)
+
+### - lighthouse: moving forward
+
+Performance seems to be the area of improvement, particuarly for mobile. According to the lighthouse analysis, it is largely to do with the images. 
+
+Moving forward, I will create a react srcset for all image sizes. This should improve performance. 

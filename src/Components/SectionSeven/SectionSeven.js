@@ -45,6 +45,7 @@ const Image = styled.img`
   min-width: 344px;
   height: auto;
   object-fit: cover;
+  cursor: pointer;
 
   @media (max-width: 480px) {
     width: 344px;
@@ -59,6 +60,8 @@ const Text = styled.h4`
 
   margin: 0;
   font-weight: 300;
+  cursor: pointer;
+
 `;
 
 const SectionSeven = () => {
