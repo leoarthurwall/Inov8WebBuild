@@ -62,8 +62,7 @@ I tried implementing the srcSet attribute on the header image in section one as 
 
 I didn't manage to get it to work. So this will be something I look into in the future to help improve performance. 
 
-For now I will use conditional rendering media queries.
-
+For now I will use conditional rendering media queries to display images based on device size.
 
 ## FUTURE MOVES
 
@@ -75,3 +74,23 @@ In addition to improving the lighthouse analysis, there are a few other things I
   - This would have kept the code cleaner and more dynamic
 
 - Impove webiste build, based off feedback. (best practices)
+
+
+## SECOND LIGHTHOUSE ANALYSIS
+
+Having implemented conditional image rendering for device sizes as a quick solution to the slow image performance upon page load, I carried out another lighthouse analysis. The results for both mobile and desktop have improved and look positive.
+
+### Mobile 
+
+![AfterLighthouseOverall](public/images/lighthouseSummaryAfterMobile.png)
+![AfterLighthouseMetrics](public/images/lighthouseMetricsAfterMobile.png)
+![AfterLighthouseOpportunities](public/images/lighthouseOpportunitiesAfterMobile.png)
+
+### Desktop
+
+![AfterLighthouseOverall](public/images/lighthouseSummaryAfterDesktop.png)
+![AfterLighthouseMetrics](public/images/lighthouseMetricsAfterDesktop.png)
+![AfterLighthouseOpportunities](public/images/lighthouseOpportunitiesAfterDesktop.png)
+
+Moving forwards, looking into serving images in next gen format could be a way to further improver the performance, particuarly for mobile.
+
