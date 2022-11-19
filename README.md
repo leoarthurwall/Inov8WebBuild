@@ -1,5 +1,7 @@
 # INOV8 WEB BUILD
 
+![Main Image](public/images/mainReadmeImage.png)
+
 Welcome to the Inov8 web build. A responsive single page website built to design spec using React.js and styled components. 
 
 It responds to Mobile, Tablet, Laptop and desktop view ports.
