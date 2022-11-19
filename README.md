@@ -28,6 +28,13 @@ After the webpage was made mobile responsive, I ran a lighthouse test to see how
 
 https://inov8lw.netlify.app/
 
+## DESIGN SPEC
+
+(Desktop 1920w)[https://xd.adobe.com/view/cc93ae62-3c05-4b51-bf7a-f35a8af2038d-99c0/specs/]
+(Desktop 1280w)[https://xd.adobe.com/view/84ffd34b-8d2b-4bae-968f-589a61fbfdb1-d1ac/]
+(Tablet 768w)[https://xd.adobe.com/view/65ed8046-632c-4e64-8570-5a6884dec412-30be/]
+(Mobile 428w)[https://xd.adobe.com/view/3c173307-3414-443b-b899-ec82c6b24ef7-6944/]
+
 ## Lighthouse Scores
 
 ### Mobile - Initial scores (once build was finished)
