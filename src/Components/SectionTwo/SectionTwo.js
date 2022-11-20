@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Button from "../Global/Button/Button";
 import SectionTwoText from "./SectionTwoText/SectionTwoText";
+import { device } from "../Global/breakpoint";
 //SECTION - PARKCLAW
 
 const SectionTwoContainer = styled.section`
@@ -17,7 +18,7 @@ const SectionTwoContainer = styled.section`
   align-items: center;
   flex-direction: column;
   
-  @media only screen and (max-width: 768px) {
+  @media ${device.tablet} {
     padding-top: 12%;
     padding-bottom: 20%;
   }
@@ -28,7 +29,7 @@ const ButtonContainer = styled.div`
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  @media only screen and (max-width: 768px) {
+  @media ${device.tablet} {
     flex-direction: column;
   }
 `;
@@ -36,13 +37,13 @@ const Image = styled.img`
   width: 44vw;
   height: auto;
   object-fit: cover;
-  @media only screen and (max-width: 1280px) {
+  @media ${device.laptop}{
     width: 500px;
   }
-  @media only screen and (max-width: 768px) {
+  @media ${device.tablet} {
     width: 75vw;
   }
-  @media only screen and (max-width: 428px) {
+  @media ${device.mobile} {
     width: 90vw;
   }
 `;

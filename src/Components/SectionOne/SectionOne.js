@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import SectionOneNotification from "./SectionOneNotification/SectionOneNotification";
 import { useMediaQuery } from "react-responsive";
+import { device } from "../Global/breakpoint";
 
 //SECTION - HEADER
 
@@ -13,7 +14,7 @@ const SectionOneContainer = styled.section`
   background-image: ${({ isMobile }) => (isMobile ? "url(/assets/mobile/header.jpg)" : "url(/assets/desktop/header.jpg)")};
   background-position: 25%;
 
-  @media only screen and (max-width: 768px) {
+  @media ${device.tablet} {
     height: 100vh;
   }
  
