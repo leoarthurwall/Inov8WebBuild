@@ -12,10 +12,10 @@ const GlobalStyle = createGlobalStyle`
   box-sizing: border-box;
   }
   :root {
-    ${'' /* FONTS */}
+    ${"" /* FONTS */}
     --font-all: sans-serif, Arial, Helvetica;
 
-    ${'' /* COLORS */}
+    ${"" /* COLORS */}
     --color-white: #ffffff;
     --color-black: #000000;
     --color-orange: #ddad42;
@@ -23,6 +23,12 @@ const GlobalStyle = createGlobalStyle`
     --color-green-button-text: #161615;
     --color-video-background:#ebebeb;
     --color-video-text:#707070;
+
+    ${"" /* Break Points */}
+    --desktop: 1920px;
+    --laptop: 1280px;
+    --tablet: 768px;
+    --mobile: 428px;
   }
 `;
 
