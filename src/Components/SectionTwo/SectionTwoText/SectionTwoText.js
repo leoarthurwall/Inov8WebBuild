@@ -1,12 +1,13 @@
 import React from "react";
 import styled from "styled-components";
+import { device } from "../../Global/breakpoint";
 
 const TextContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  @media only screen and (max-width: 760px) {
+  @media  ${device.tablet} {
     width: 90%;
   }
 `;
@@ -17,7 +18,7 @@ const Header = styled.h2`
   font-family: sans-serif;
   color: #fff;
   margin: 0;
-  @media only screen and (max-width: 1280px) {
+  @media ${device.laptop} {
     font-size: 55px;
   }
   @media only screen and (max-width: 550px) {
@@ -26,7 +27,7 @@ const Header = styled.h2`
 `;
 const HeaderSpan = styled.span`
   font-weight: 200;
-  @media only screen and (max-width: 1280px) {
+  @media ${device.laptop} {
     font-size: 55px;
   }
   @media only screen and (max-width: 550px) {
@@ -38,10 +39,10 @@ const SubHeader = styled.h3`
   font-size: 2.05vw;
   font-weight: 300;
   color: #fff;
-  @media only screen and (max-width: 1280px) {
+  @media ${device.laptop} {
     font-size: 26px;
   }
-  @media only screen and (max-width: 428px) {
+  @media ${device.mobile} {
     font-size: 5.5vw;
   }
 `;
@@ -50,12 +51,12 @@ const Paragraph = styled.p`
   max-width: 40vw;
   font-size: 1.5vw;
   text-align: center;
-  @media only screen and (max-width: 1280px) {
+  @media ${device.laptop} {
     max-width: 500px;
     font-size: 20px;
   }
 
-  @media only screen and (max-width: 428px) {
+  @media ${device.mobile} {
     font-size: 5.5vw;
   }
 `;
