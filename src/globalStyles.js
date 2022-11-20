@@ -24,12 +24,7 @@ const GlobalStyle = createGlobalStyle`
     --color-video-background:#ebebeb;
     --color-video-text:#707070;
 
-    ${"" /* Break Points */}
-    --desktop: 1920px;
-    --laptop: 1280px;
-    --tablet: 768px;
-    --mobile: 428px;
-  }
+
 `;
 
 export default GlobalStyle;
