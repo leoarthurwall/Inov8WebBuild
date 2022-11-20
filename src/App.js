@@ -6,6 +6,7 @@ import SectionSeven from "./Components/SectionSeven/SectionSeven";
 import SectionSix from "./Components/SectionSix/SectionSix";
 import SectionThree from "./Components/SectionThree/SectionThree";
 import SectionTwo from "./Components/SectionTwo/SectionTwo";
+import GlobalStyle from "./globalStyles";
 
 const AppComponent = styled.main`
   width: 100vw;
@@ -15,6 +16,7 @@ const AppComponent = styled.main`
 function App() {
   return (
     <AppComponent>
+      <GlobalStyle />
       <SectionOne />
       <SectionTwo />
       <SectionThree />
