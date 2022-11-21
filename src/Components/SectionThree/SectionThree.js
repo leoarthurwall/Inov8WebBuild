@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { device } from "../Global/breakpoint";
 
 const SectionThreeContainer = styled.section`
   width: 100%;
@@ -9,10 +10,10 @@ const SectionThreeContainer = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
-  @media only screen and (max-width: 1280px) {
+  @media ${device.laptop} {
    height: 85vw;
   }
-  @media only screen and (max-width: 428px) {
+  @media ${device.mobile} {
     height: 100vw;
   }
 `;
@@ -24,10 +25,10 @@ const ImageWrapper = styled.div`
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 1vw;
-  @media only screen and (max-width: 1280px) {
+  @media ${device.laptop} {
    padding: 0 3%;
   }
-  @media only screen and (max-width: 428px) {
+  @media ${device.mobile} {
    padding: 0;
   }
 `;
