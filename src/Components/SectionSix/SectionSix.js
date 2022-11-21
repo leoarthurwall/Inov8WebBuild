@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { device } from "../Global/breakpoint";
 
 const SectionSixContainer = styled.section`
   height: 100vh;
@@ -9,9 +10,9 @@ const SectionSixContainer = styled.section`
   justify-content: center;
   align-items: center;
   background-color: #ffffff;
-  @media (max-width: 1280px) {
+  @media ${device.laptop} {
     height: 75vw;
-    @media (max-width: 428px) {
+    @media ${device.mobile} {
     height: 60vh;
   }
   }
@@ -28,7 +29,7 @@ const VideoContainer = styled.div`
   margin: 50px;
   cursor: pointer;
 
-  @media only screen and (max-width: 428px) {
+  @media ${device.mobile} {
     margin: 50px 0;
 
   }
@@ -41,7 +42,7 @@ const VideoText = styled.h1`
   font-weight: bold;
   font-size: 100px;
 
-  @media (max-width: 1280px) {
+  @media ${device.laptop} {
     font-size: 8vw;
   }
 `;
