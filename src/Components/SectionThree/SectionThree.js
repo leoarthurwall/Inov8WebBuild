@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { device } from "../Global/breakpoint";
+import { device } from "../Global/globalStyles";
 
 const SectionThreeContainer = styled.section`
   width: 100%;

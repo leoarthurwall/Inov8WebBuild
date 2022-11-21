@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { device } from "../Global/breakpoint";
+import { device } from "../Global/globalStyles";
 
 const SectionSixContainer = styled.section`
   height: 100vh;

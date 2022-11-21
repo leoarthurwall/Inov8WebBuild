@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Button from "../Global/Button/Button";
 import SectionTwoText from "./SectionTwoText/SectionTwoText";
-import { device } from "../Global/breakpoint";
+import { device } from "../Global/globalStyles";
 //SECTION - PARKCLAW
 
 const SectionTwoContainer = styled.section`

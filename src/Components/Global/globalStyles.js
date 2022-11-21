@@ -1,3 +1,5 @@
+//BREAKPOINTS
+
 const size = {
   mobile: "428px",
   tablet: "768px",
@@ -10,4 +12,16 @@ export const device = {
   tablet: `(max-width: ${size.tablet})`,
   laptop: `(max-width: ${size.laptop})`,
   desktop: `(max-width: ${size.desktop})`,
+};
+
+//COLORS
+
+export const colors = {
+  white: "#ffffff",
+  black: "#000000",
+  orange: "#ddad42",
+  green: "#00FF00",
+  greenButtonText: " #161615",
+  videoBackground: "#ebebeb",
+  videoText: "#707070",
 };

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import SectionOneNotification from "./SectionOneNotification/SectionOneNotification";
 import { useMediaQuery } from "react-responsive";
-import { device } from "../Global/breakpoint";
+import { device } from "../Global/globalStyles";
 
 //SECTION - HEADER
 
