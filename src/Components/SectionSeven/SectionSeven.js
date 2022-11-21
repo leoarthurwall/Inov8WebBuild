@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { device } from "../Global/breakpoint";
 
 const SectionSevenContainer = styled.section`
   height: 100%;
@@ -16,10 +17,10 @@ const Header = styled.h2`
   padding: 100px 50px 0 50px;
   box-sizing: border-box;
   margin: 0;
-  @media (max-width: 768px) {
+  @media ${device.tablet} {
     font-size: 30px;
   }
-  @media (max-width: 428px) {
+  @media ${device.mobile} {
     font-size: 26px;
     padding: 75px 25px 0 25px;
   }
@@ -32,10 +33,10 @@ const GridContainer = styled.div`
   grid-gap: 2.2vw;
   padding: 50px;
   overflow: scroll;
-  @media (max-width: 1280px) {
+  @media ${device.laptop} {
     grid-gap: 30px;
   }
-  @media (max-width: 428px) {
+  @media ${device.mobile} {
     padding: 35px;
   }
 `;
@@ -47,7 +48,7 @@ const Image = styled.img`
   object-fit: cover;
   cursor: pointer;
 
-  @media (max-width: 428px) {
+  @media ${device.mobile} {
     width: 344px;
   }
 `;
