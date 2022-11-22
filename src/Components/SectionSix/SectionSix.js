@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { device } from "../Global/globalStyles";
+import { device, colors } from "../Global/globalStyles";
 
 const SectionSixContainer = styled.section`
   height: 100vh;
@@ -9,7 +9,7 @@ const SectionSixContainer = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ffffff;
+  background-color: ${colors.white};
   @media ${device.laptop} {
     height: 75vw;
     @media ${device.mobile} {
@@ -20,7 +20,7 @@ const SectionSixContainer = styled.section`
 const VideoContainer = styled.div`
   height: 100%;
   width: 100%;
-  background-color: #ebebeb;
+  background-color: ${colors.videoBackground};
 
   display: flex;
   justify-content: center;
@@ -36,7 +36,7 @@ const VideoContainer = styled.div`
 `;
 
 const VideoText = styled.h1`
-  color: #707070;
+  color: ${colors.videoText};
   font-family: sans-serif;
   ${"" /* font-family: DINPro; */}
   font-weight: bold;
