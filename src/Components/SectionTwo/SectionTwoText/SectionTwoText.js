@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { device } from "../../Global/globalStyles";
+import { device, colors } from "../../Global/globalStyles";
 
 const TextContainer = styled.div`
   display: flex;
@@ -16,7 +16,7 @@ const Header = styled.h2`
   font-size: 4.3vw;
   font-weight: bold;
   font-family: sans-serif;
-  color: #fff;
+  color: ${colors.white};
   margin: 0;
   @media ${device.laptop} {
     font-size: 55px;
@@ -38,7 +38,7 @@ const SubHeader = styled.h3`
   margin: 0;
   font-size: 2.05vw;
   font-weight: 300;
-  color: #fff;
+  color: ${colors.white};
   @media ${device.laptop} {
     font-size: 26px;
   }
