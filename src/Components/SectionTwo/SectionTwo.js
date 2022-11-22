@@ -2,7 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import Button from "../Global/Button/Button";
 import SectionTwoText from "./SectionTwoText/SectionTwoText";
-import { device } from "../Global/globalStyles";
+import { device, colors} from "../Global/globalStyles";
+
 //SECTION - PARKCLAW
 
 const SectionTwoContainer = styled.section`
@@ -11,7 +12,7 @@ const SectionTwoContainer = styled.section`
   padding-top: 6%;
   padding-bottom: 10%;
 
-  background-color: #ddad42;
+  background-color: ${colors.orange};
 
   display: flex;
   justify-content: center;
