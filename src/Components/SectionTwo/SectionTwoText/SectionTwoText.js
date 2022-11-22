@@ -1,13 +1,13 @@
 import React from "react";
 import styled from "styled-components";
-import { device, colors } from "../../Global/globalStyles";
+import { device, colors, fonts } from "../../Global/globalStyles";
 
 const TextContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  @media  ${device.tablet} {
+  @media ${device.tablet} {
     width: 90%;
   }
 `;
@@ -15,7 +15,7 @@ const TextContainer = styled.div`
 const Header = styled.h2`
   font-size: 4.3vw;
   font-weight: bold;
-  font-family: sans-serif;
+  font-family: ${fonts.font};
   color: ${colors.white};
   margin: 0;
   @media ${device.laptop} {
@@ -26,6 +26,7 @@ const Header = styled.h2`
   }
 `;
 const HeaderSpan = styled.span`
+  font-family: ${fonts.font};
   font-weight: 200;
   @media ${device.laptop} {
     font-size: 55px;
@@ -38,6 +39,7 @@ const SubHeader = styled.h3`
   margin: 0;
   font-size: 2.05vw;
   font-weight: 300;
+  font-family: ${fonts.font};
   color: ${colors.white};
   @media ${device.laptop} {
     font-size: 26px;
@@ -47,7 +49,8 @@ const SubHeader = styled.h3`
   }
 `;
 const Paragraph = styled.p`
-  color: white;
+  color: ${colors.white};
+  font-family: ${fonts.font};
   max-width: 40vw;
   font-size: 1.5vw;
   text-align: center;

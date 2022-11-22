@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import { BsCalendar3 } from "react-icons/bs";
-import { colors } from "../../Global/globalStyles";
+import { colors, fonts } from "../../Global/globalStyles";
 
 const NotificationContainer = styled.div`
   width: 32vw;
@@ -47,7 +47,7 @@ const TopRowLeft = styled.div`
   gap: 1rem;
 `;
 const ReminderText = styled.h4`
-  color: #fff;
+  color: ${colors.white};
   margin: 0;
   font-size: 1.1vw;
   @media only screen and (max-width: 1280px) {
@@ -61,7 +61,7 @@ const TextContainer = styled.div`
 const NotificationText = styled.h3`
   color: ${colors.white};
   font-weight: 600;
-  font-family: sans-serif;
+  font-family: ${fonts.font};
   font-size: 2.5vw;
   margin: 0;
   height: auto;
