@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { device } from "../Global/globalStyles";
+import { device, colors } from "../Global/globalStyles";
 
 const SectionSevenContainer = styled.section`
   height: 100%;
@@ -9,7 +9,7 @@ const SectionSevenContainer = styled.section`
   margin-bottom: 5%;
 `;
 const Header = styled.h2`
-  color: #000000;
+  color: ${colors.black};
   font-size: 40px;
   font-weight: bold;
   font-family: sans-serif;
@@ -54,7 +54,7 @@ const Image = styled.img`
 `;
 const Text = styled.h4`
   font-size: 20px;
-  color: #000;
+  color: {colors.black} ;
   font-family: sans-serif;
   padding-left: 35px;
   padding-right: 35px;
