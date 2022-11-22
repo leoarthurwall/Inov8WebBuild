@@ -57,8 +57,8 @@ const SectionTwo = () => {
         alt="the parkclaw running shoe in yellow"
       />
       <ButtonContainer>
-        <Button buttonText={"SHOP MEN"} bgColor="#fff" color="#000" />
-        <Button buttonText={"SHOP WOMEN"} bgColor="#fff" color="#000" />
+        <Button buttonText={"SHOP MEN"} bgColor={colors.white} color={colors.black} />
+        <Button buttonText={"SHOP WOMEN"} bgColor={colors.white} color={colors.black} />
       </ButtonContainer>
     </SectionTwoContainer>
   );
