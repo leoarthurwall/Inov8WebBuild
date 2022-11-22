@@ -2,11 +2,12 @@ import React from "react";
 import styled from "styled-components";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import { BsCalendar3 } from "react-icons/bs";
+import { colors } from "../../Global/globalStyles";
 
 const NotificationContainer = styled.div`
   width: 32vw;
   height: 13vw;
-  border: 2px solid #ffffff;
+  border: 2px solid ${colors.white};
   border-radius: 15px;
 
   position: absolute;
@@ -58,7 +59,7 @@ const TextContainer = styled.div`
   flex-direction: column;
 `;
 const NotificationText = styled.h3`
-  color: #fff;
+  color: ${colors.white};
   font-weight: 600;
   font-family: sans-serif;
   font-size: 2.5vw;
