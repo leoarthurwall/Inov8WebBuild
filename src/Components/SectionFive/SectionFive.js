@@ -2,13 +2,14 @@ import React from "react";
 import styled from "styled-components";
 import Button from "../Global/Button/Button";
 import { useMediaQuery } from "react-responsive";
+import { colors } from "../Global/globalStyles";
 
 const SectionFiveContainer = styled.section`
   height: auto;
   width: 100%;
   padding-top: 15%;
   padding-bottom: 10%;
-  background: #fff;
+  background: ${colors.white};
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -34,7 +35,6 @@ const Image = styled.img`
   height: auto;
   object-fit: contain;
   cursor: pointer;
-
 
   @media only screen and (max-width: 900px) {
     width: 40vw;
@@ -82,11 +82,11 @@ const SectionFive = () => {
           </ImageWrapper>
 
           <ButtonContainer>
-            <Button buttonText={"SHOP MEN"} bgColor="#00FF00" color="#161615" />
+            <Button buttonText={"SHOP MEN"} bgColor={colors.green} color={colors.greenButtonText}  />
             <Button
               buttonText={"SHOP WOMEN"}
-              bgColor="#00FF00"
-              color="#161615"
+              bgColor={colors.green} 
+              color={colors.greenButtonText} 
             />
           </ButtonContainer>
         </>
