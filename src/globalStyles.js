@@ -11,20 +11,7 @@ const GlobalStyle = createGlobalStyle`
   background-color: #fff;
   box-sizing: border-box;
   }
-  :root {
-    ${"" /* FONTS */}
-    --font-all: sans-serif, Arial, Helvetica;
-
-    ${"" /* COLORS */}
-    --color-white: #ffffff;
-    --color-black: #000000;
-    --color-orange: #ddad42;
-    --color-green: #00FF00;
-    --color-green-button-text: #161615;
-    --color-video-background:#ebebeb;
-    --color-video-text:#707070;
-
-
+  
 `;
 
 export default GlobalStyle;

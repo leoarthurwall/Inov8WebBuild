@@ -25,3 +25,7 @@ export const colors = {
   videoBackground: "#ebebeb",
   videoText: "#707070",
 };
+
+export const fonts = {
+ font: "sans-serif"
+}
