@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import { device } from "../Global/globalStyles";
+import { device, colors } from "../Global/globalStyles";
 
 const SectionThreeContainer = styled.section`
   width: 100%;
   height: 1050px;
-  background: #fff;
+  background: ${colors.white};
   position: relative;
   display: flex;
   justify-content: center;
